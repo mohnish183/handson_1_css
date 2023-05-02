@@ -1,0 +1,9 @@
+p {
+  color: rgb(155, 24, 24);
+}
+
+.prepbytes_link {
+  background-color: yellow;
+  text-decoration: none;
+  color: red;
+}

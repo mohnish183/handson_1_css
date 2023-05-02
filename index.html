@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      h3 {
+        color: red;
+        font-style: italic;
+      }
+      ul {
+        color: rgb(117, 20, 20);
+        word-spacing: 8px;
+        letter-spacing: 8px;
+      }
+
+      span {
+        background-color: yellow;
+        font-weight: bold;
+        color: rgb(81, 12, 12);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: red">This is First Css Assignment</h1>
+    <hr />
+    <h3 style="color: red; font-style: italic">What is CSS?</h3>
+    <ol style="color: rgb(139, 8, 8); line-height: 2.5">
+      <li>CSS stands for Cascading Style Sheets.</li>
+      <li>
+        CSS describes how HTML elements are to be displayed on screen, paper, or
+        in other media
+      </li>
+      <li>
+        <span
+          style="
+            color: rgb(81, 12, 12);
+            text-decoration: line-through;
+            font-weight: bold;
+          "
+        >
+          Css is not neccesary
+        </span>
+        <span
+          style="
+            color: rgb(81, 12, 12);
+            background-color: yellow;
+            font-weight: bold;
+          "
+        >
+          CSS saves a lot of work.</span
+        >It can control the layout of multiple web pages all at once
+      </li>
+      <li>
+        <a href="#" style="color: rgb(139, 8, 8); font-style: italic">
+          External stylesheets are stored in CSS files</a
+        >
+      </li>
+    </ol>
+    <!-- Internal CSS -->
+    <h3>CSS can be added to HTML documents in 3 ways:</h3>
+    <ul>
+      <li>Inline - by using the style attribute inside HTML elements</li>
+      <li>Internal - by usiing a style element in the head section</li>
+      <li>
+        External - by using a link element to link to an external CSS file.
+      </li>
+      <li>
+        The most common way to add CSS, is to keep the styles in external CSS
+        files. However,
+        <span> in this tutorial we will use inline and internal styles,</span>
+        because this is easier to demonstrate, and easier for you to try it
+        yourself.
+      </li>
+    </ul>
+
+    <!-- External CSS -->
+    <p>
+      When comparing CSS class vs ID, the difference is that CSS class applies a
+      style to multiple elements. ID on the other hand, applies a style to one
+      unique element. ID is also special in that you can use a special URL to
+      link directly to an element and it's used by JavaScript.
+    </p>
+    <p>
+      In css, selector are used to target a specific element or range of
+      elements on web page. Once an element has been targeted, a style or set of
+      styles can be applied to the elements.
+    </p>
+    <p>
+      There is wide range of the selectors available. Two of the most commonly
+      used are class and ID. Both are used to target elements to which a style
+      should be applied.
+    </p>
+    <a href="https://www.prepbytes.com/" class="prepbytes_link"
+      >prepbytes home</a
+    >
+  </body>
+</html>
